@@ -21,7 +21,7 @@ public class LoginPage {
      private By txt_username = By.id("name");
      private  By txt_password = By.id("password");
      private By btn_login =By.id("login");
-     private By btn_logout =By.id("logout");
+     By btn_logout =By.id("logout");
      // 对locator的命名一般采用的是：这个object的类型 （比如text box) + 作用 （输入username的）
     //我理解的By 是一种variable type, 类似String，意思是 '组件'
 
