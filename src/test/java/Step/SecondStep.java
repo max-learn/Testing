@@ -25,6 +25,7 @@ public class SecondStep {
         System.out.println(element.getText());
         Objects.equals("谁适合阅读本教程？",element.getText());
         driver.quit();
+        System.out.println("Test Complete!");
 
     }
 }
